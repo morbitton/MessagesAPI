@@ -1,0 +1,33 @@
+﻿
+#create table messages
+create table sys.messages(
+idMessage int AUTO_INCREMENT,
+sender varchar(50),
+reciver varchar(50),
+messageContent varchar(4000),
+subject varchar(100),
+creatrionDate DateTime,
+isRead bool);
+
+
+
+INSERT sys.messages (sender,reciver,messageContent,subject,creatrionDate,isRead)
+VALUES ("ELI","MOR","do u want to go out with me?", "Hii Mor", "2021-05-01",false);
+
+INSERT sys.messages (sender,reciver,messageContent,subject,creatrionDate,isRead)
+VALUES ("MOR","ELI","yesssssssssssssssssss!", "Hii", "2021-05-01",false);
+
+INSERT sys.messages (sender,reciver,messageContent,subject,creatrionDate,isRead)
+VALUES ("ELI","MOR","When ?", "HII", "2021-05-01",false);
+
+INSERT sys.messages (sender,reciver,messageContent,subject,creatrionDate,isRead)
+VALUES ("MOR","ELI","5!", "Hii", "2021-05-01",false);
+
+INSERT sys.messages (sender,reciver,messageContent,subject,creatrionDate,isRead)
+VALUES ("DAVID","ELI","BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA", "Hii", "2021-05-02",false);
+
+INSERT sys.messages (sender,reciver,messageContent,subject,creatrionDate,isRead)
+VALUES ("DAVID","MOR","BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA", "Hii", "2021-05-02",false);
+
+INSERT sys.messages (sender,reciver,messageContent,subject,creatrionDate,isRead)
+VALUES ("DAVID","KARIN","BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA", "Hii", "2021-05-02",false);
